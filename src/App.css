@@ -1,0 +1,160 @@
+.App {
+  min-height: 100vh;
+  background: url('./back.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  margin-top: 0%;
+  padding: 0%;
+}
+
+.search-form {
+  float: right;
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: inherit;
+  padding-right: 2%;
+}
+
+.search-bar {
+  min-height: 7vh;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: white;
+  border-width: 2px;
+  border-radius: 20px;
+  margin-right: 10px;
+  color: white;
+  font-size: larger;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar:focus {
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+.search-button {
+  background-color: white;
+  color: black;
+  min-height: 5vh;
+  font-size: larger;
+  border-radius: 20px;
+  padding: 1.5vh;
+  border: none;
+  text-decoration: none;
+}
+
+.search-button:hover {
+  background-color: rgb(99, 53, 35);
+  color: white;
+}
+
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto 5%;
+}
+
+.heading {
+  margin: 3% 7%;
+  background-color: white;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0px 5px 10px rgb(58, 57, 57);
+  padding: 25px;
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.header {
+  margin: 0%;
+  padding: 13vh;
+  font-family: 'Lobster', cursive;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 10;
+}
+
+.description {
+  margin: 0% 25%;
+  margin-bottom: 10vh;
+  color: white;
+  background-color: rgba(3, 3, 3, 0.5);
+  width: 40%;
+  padding: 7vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+#head {
+  margin-top: 60vh;
+  padding: 5vh;
+  text-emphasis: none;
+}
+
+.dropdown {
+  min-height: 7vh;
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: white;
+  border-width: 2px;
+  border-radius: 15px;
+  margin-right: 10px;
+  color: white;
+  font-size: larger;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown:focus {
+  background-color: white;
+  color: black;
+}
+
+#logo {
+  float: left;
+  transform: translateX('0');
+  position: absolute;
+  overflow: hidden;
+  padding-left: 2%;
+}
+#logo > h2 {
+  margin: 10px;
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+.navbar {
+  background-color: rgba(133, 2, 127, 0.9);
+  box-shadow: 0px 5px 10px rgb(49, 49, 49);
+  overflow: hidden;
+  position: sticky;
+  top: 0%;
+  width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  #logo {
+    display: contents;
+    text-align: center;
+  }
+  #logo > h2 { 
+    margin: 2%;
+  }
+}
