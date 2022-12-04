@@ -1,3 +1,13 @@
+Using this app cook can explore the recepies 
+Of different types of foods.
+They can filter out recepies on basis of diff types
+Of food like low-carb/high carb  alcoholic non alcoholic
+Protein rich etc
+They can also search for a specific food
+This app is made using HTML CSS JavaScript ReactJS
+FOR FETCHING food data we use api Edaman
+This app is made from scratch without using any designing library.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
